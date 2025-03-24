@@ -1,0 +1,28 @@
+// Dane dostępowe (do settings.py w Django):
+
+// DATABASES = {
+//     'default': {
+//         'ENGINE': 'django.db.backends.postgresql',
+//         'NAME': 'studyplanner_db',
+//         'USER': 'postgres',
+//         'PASSWORD': 'postgres123',
+//         'HOST': 'localhost',
+//         'PORT': '5432',
+//     }
+// }
+
+
+// ▶️ Jak uruchomić?
+
+//     Zapisz plik jako docker-compose.yml
+
+//     W katalogu projektu uruchom:
+
+// docker-compose up -d
+
+// Sprawdź, czy działa:
+
+//     docker ps
+
+//     Możesz połączyć się do bazy np. przez pgAdmin lub bezpośrednio z Django
+
